@@ -1,0 +1,6 @@
+(q-transform/hint (quote (lambda (cons (car (var ())) (quote ())))) (quote ((1 #f) (#f a) (a b) (b 1) (1 1))))
+(q-transform/hint (quote (lambda (cons (car (var ())) (cons (car (cdr (var ()))) (quote ()))))) (quote ((1 #f a) (#f a b) (a b 1) (b 1 1) (1 1 #f))))
+(q-transform/hint (quote (lambda (cons (car (var ())) (cons (car (cdr (var ()))) (cons (car (cdr (cdr (var ())))) (quote ())))))) (quote ((1 #f a b) (#f a b 1) (a b 1 1) (b 1 1 #f) (1 1 #f a))))
+(q-transform/hint (quote (lambda (cons (car (var ())) (cons (car (cdr (var ()))) (cons (car (cdr (cdr (var ())))) (cons (car (cdr (cdr (cdr (var ()))))) (quote ()))))))) (quote ((1 #f a b 1) (#f a b 1 1) (a b 1 1 #f) (b 1 1 #f a) (1 1 #f a b))))
+(q-transform/hint (quote (lambda (cons (car (var ())) (cons (car (cdr (var ()))) (cons (car (cdr (cdr (var ())))) (cons (car (cdr (cdr (cdr (var ()))))) (cons (car (cdr (cdr (cdr (cdr (var ())))))) (quote ())))))))) (quote ((1 #f a b 0 1) (#f a b 0 1 1) (a b 0 1 1 #f) (b 0 1 1 #f a) (0 1 1 #f a b))))
+(q-transform/hint (quote (lambda (cons (car (var ())) (cons (car (cdr (var ()))) (cons (car (cdr (cdr (var ())))) (cons (car (cdr (cdr (cdr (var ()))))) (cons (car (cdr (cdr (cdr (cdr (var ())))))) (cons (car (cdr (cdr (cdr (cdr (cdr (var ()))))))) (quote ()))))))))) (quote ((1 #f a b x 0 1) (#f a b x 0 1 1) (a b x 0 1 1 #f) (b x 0 1 1 #f a) (x 0 1 1 #f a b))))
