@@ -1,7 +1,8 @@
 # Neural Guided Constraint Logic Programming for Program Synthesis
 
 This repository contains code that goes with the paper:
-Neural Guided Constraint Logic Programming for Program Synthesis (TODO: add link)
+Neural Guided Constraint Logic Programming for Program Synthesis 
+https://papers.nips.cc/paper/7445-neural-guided-constraint-logic-programming-for-program-synthesis
 
 This repository contains an implementation of miniKanren where the
 constraint trees are represented transparently. We add scaffolding code
@@ -63,9 +64,9 @@ The following files contain the test problems used in the paper.
 
 ## References
 
-[0] (TODO: link to paper)
+[0] [NeurIPS 2019](https://papers.nips.cc/paper/7445-neural-guided-constraint-logic-programming-for-program-synthesis)
 
-[1] [ICLR 2018 Workshop Paper](https://openreview.net/forum?id=HJIHtIJvz): with slightly less detail (4 pages)
+[1] [ICLR 2018 Workshop](https://openreview.net/forum?id=HJIHtIJvz): with slightly less detail (4 pages)
 
 [2] [Lisa Zhang's Master's Thesis](http://lisazhang.ca/msc_thesis.pdf): with slightly more detail (23 pages)
 
