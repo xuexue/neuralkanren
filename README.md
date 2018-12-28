@@ -9,7 +9,7 @@ constraint trees are represented transparently. We add scaffolding code
 to show how to drive miniKanren using an external agent in Python.
 We provide Recurrent Neural Network (RNN) and Graph Neural Network (GNN)
 agents as examples. The implementations of the RNN and GNN are consistent
-with the models described in the paper. (TODO: add link)
+with the models described in the paper [0]. 
 
 
 ## Dependencies
