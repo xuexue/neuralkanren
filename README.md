@@ -64,7 +64,7 @@ The following files contain the test problems used in the paper.
 
 ## References
 
-[0] [NeurIPS 2019](https://papers.nips.cc/paper/7445-neural-guided-constraint-logic-programming-for-program-synthesis)
+[0] [NeurIPS 2019](https://papers.nips.cc/paper/7445-neural-guided-constraint-logic-programming-for-program-synthesis) Neural Guided Constraint Logic Programming for Program Synthesis
 
 [1] [ICLR 2018 Workshop](https://openreview.net/forum?id=HJIHtIJvz): with slightly less detail (4 pages)
 
