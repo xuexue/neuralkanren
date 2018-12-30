@@ -9,7 +9,7 @@ constraint trees are represented transparently. We add scaffolding code
 to show how to drive miniKanren using an external agent in Python.
 We provide Recurrent Neural Network (RNN) and Graph Neural Network (GNN)
 agents as examples. The implementations of the RNN and GNN are consistent
-with the models described in the paper [0]. 
+with the models described in the paper [0].
 
 
 ## Dependencies
@@ -19,7 +19,7 @@ with the models described in the paper [0].
 * PyTorch 0.3+: https://pytorch.org/
 
 
-## Transprent miniKanren
+## Transparent miniKanren
 
 The following files contain an implementation of miniKanren where the
 constraint trees are represented transparently, and a python interface for interacting
@@ -64,7 +64,7 @@ The following files contain the test problems used in the paper.
 
 ## References
 
-[0] [NeurIPS 2019](https://papers.nips.cc/paper/7445-neural-guided-constraint-logic-programming-for-program-synthesis) Neural Guided Constraint Logic Programming for Program Synthesis
+[0] [NeurIPS 2018](https://papers.nips.cc/paper/7445-neural-guided-constraint-logic-programming-for-program-synthesis) Neural Guided Constraint Logic Programming for Program Synthesis
 
 [1] [ICLR 2018 Workshop](https://openreview.net/forum?id=HJIHtIJvz): with slightly less detail (4 pages)
 
